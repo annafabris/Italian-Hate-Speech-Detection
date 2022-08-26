@@ -5,7 +5,11 @@ translated into English) and a multilingual model, and show that the multi-lingu
 ## Overview
 The University of Bologna (UniBo) Natural Language Processing (NLP) elective project work. In this project, we utilised the [Italian Hate Speech Corpus](https://github.com/msang/hate-speech-corpus) dataset to profile hate speech spreaders on social media, more specifically on Twitter, addressing the problem in Italian. 
 
-Three different transformers (Italian Transformer, Multilingual transformer, English transformer with translated dataset) were trained and evaluated on the dataset. Our results show that the Multilingual transformer method produces the best results in terms of accuracy on the test set.  
+Three different transformers were trained and evaluated on the dataset. 
+- Italian Transformer
+- Multilingual transformer
+- English transformer with translated dataset
+Our results show that the Multilingual transformer method produces the best results in terms of accuracy on the test set.  
 
 The steps taken are described in detail in the [Report](LINK MISSING). The slides used for the [Presentation](LINK MISSING) are also available.
 
@@ -18,7 +22,7 @@ The code may also be viewed directly from the [Notebook](LINK MISSING).
 ## Results
 The table below shows the F1-score on the test dataset using the three different transformer.
 
-|     Method     | F1-score hate | F1-score not hate |
+|     Method     | F1-score **hate** | F1-score **no hate** |
 |:--------------:|:-------------:|:-------------:|
 | Italian transformer   |          41% | 92% |
 | Multilingual transformer |          48% | 92% |
