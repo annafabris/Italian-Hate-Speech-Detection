@@ -12,7 +12,7 @@ Three different transformers were trained and evaluated on the dataset.
 
 Our results show that the Multilingual transformer method produces the best results in terms of accuracy on the test set.  
 
-The steps taken are described in detail in the [Report](LINK MISSING). The slides used for the [Presentation](LINK MISSING) are also available.
+The steps taken are described in detail in the [Report](https://github.com/annafabris/Italian-Hate-Speech-Detection/blob/main/Report.pdf). The slides used for the [Presentation](https://github.com/annafabris/Italian-Hate-Speech-Detection/blob/main/Presentation.pdf) are also available.
 
 The code may also be viewed directly from the [Notebook](LINK MISSING).
 
