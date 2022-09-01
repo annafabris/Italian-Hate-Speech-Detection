@@ -31,5 +31,5 @@ The table below shows the F1-score on the test dataset using the three different
 
 The difference between the F1-score of the classes is because the labels the labels are highly unbalanced.
 To combat this, weight biasing was tested, however it gave mixed results. While applying a weight bias to the under-represented label (1:2 to no-hate, hate) gave better performance for the hate class, it inhibited the results of the no-hate class. Below is the confusion matrix for the multilingual transformer with a weight bias.
-![Alt text](onfusion_matrix.png?raw=true)
+![Alt text](confusion_matrix.png?raw=true)
 
